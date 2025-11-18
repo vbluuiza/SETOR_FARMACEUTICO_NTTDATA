@@ -9,9 +9,15 @@ A solução utiliza Databricks, Python, SQL e PySpark para ingestão, tratamento
 ## 🗂️ Estrutura do Projeto
 
 ```
-├── 📁 bronze/             # Notebooks da camada Bronze
-├── 📁 silver/             # Notebooks da Camada Silver
-├── 📁 gold/               # Notebooks da camada Gold
+📁 bronze/                     # Notebooks da camada Bronze
+ ├── 📑 BRONZE - CRIAÇÃO DAS TABELAS
+📁 silver/                     # Notebooks da Camada Silver
+ ├── 📑 LUCCA - SILVER -> PRINCÍPIOS ATIVOS
+ ├── 📑 MATEUS - SILVER -> PRODUTOS FABRICADOS
+ ├── 📑 LAIZA - SILVER -> VENDAS PRODUTOS FINAIS
+📁 charts - kpi/               # SQLs com Views para utilizar nos Dashboards
+📁 gold/                       # Notebooks da camada Gold
+ ├── 📑 MARCELLO - GOLD    
 ```
 
 ---
@@ -31,7 +37,7 @@ Projeto desenvolvido por estudantes do curso de Análise e Desenvolvimento de Si
 
 - **Luiza Vieira** · [LinkedIn](https://www.linkedin.com/in/vbluuiza)
 - **Marcello Augusto** · [LinkedIn](https://www.linkedin.com/in/marcelloaugustosv/)
-- **Mateus Oliveira** · [LinkedIn](https://github.com/mateusoliveiraadev))
+- **Mateus Oliveira** · [Github](https://github.com/mateusoliveiraadev)
 - **Lucca Spinelli** · [LinkedIn](https://www.linkedin.com/in/lucca-spinelli-a65672240/)
 - **Eliziane Mota** · [LinkedIn](https://www.linkedin.com/in/eliziane-mota/)
 - **Laíza Freitas** · [LinkedIn](https://www.linkedin.com/in/laizafreitas/)
